@@ -14,6 +14,7 @@ end
 get ('/frequency') do
   @sentence_to_search = params.fetch('sentence_to_search')
   @search_term = params.fetch('search_term')
-  @times_found = params.feth ('sentence_to_search').frequency(params.fetch'search_term')
+  @times_found = params.fetch('sentence_to_search').frequency(params.fetch('search_term'))
   erb(:frequency)
   end
+  
