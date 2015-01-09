@@ -7,3 +7,8 @@ Copyright 2015 Nathan Rohde
 Creative Commons Attribution 4.0 International License
 
 Dinky little program created by Nathan "Monty" Rohde
+
+Commit 2:
+Known errors
+1)"Does not recognize words with punctuation as being the same.  I.E. "it!" is not counted as being "it"."
+Fixed before commit 3.
