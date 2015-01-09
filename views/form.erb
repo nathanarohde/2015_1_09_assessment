@@ -1,11 +1,14 @@
+<!--Called by app.rb, forms provide input for frequency.erb  -->
 <form action='/frequency' method='get'>
+  <!--Entry form for sentence_to_search input string -->
   <div class="form-group">
     <label for="sentence_to_search">Enter a sentence which you wish to search for instances of a word</label>
     <input id="sentence_to_search" name="sentence_to_search" class="sentence_to_search" type="text">
   </div>
+  <!--Entry form for search_term input string  -->
   <div class="form-group">
     <label for="search_term">Enter the word you wish to search for.</label>
     <input id="search_term" name="search_term" class="search_term" type="text">
   </div>
-<button type="submit" class="btn btn-lg">Search it!</button>
+  <button type="submit" class="btn btn-lg">Search it!</button>
 </form>

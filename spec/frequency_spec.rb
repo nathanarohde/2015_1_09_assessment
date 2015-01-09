@@ -14,7 +14,7 @@ require ('frequency')
 # end
 
 describe("String#frequency") do
-  it("program checks to see how many times the second input variable is found in the first input variable and outputs the result") do
+  it("program checks to see how many times the second input string is found in the first input string(after it has been converted into an array) and outputs the result") do
     expect(("string string string different words not_string").frequency("string")).to eq(3)
   end
 end

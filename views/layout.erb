@@ -1,13 +1,18 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>Find that word!</title>
-  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
-  <link rel='stylesheet' href='/styles.css' type='text/css'>
-</head>
-<body>
-  <div class="container">
-    <%= yield %>
-  </div>
-</body>
-</html>
+  <html>
+    <head>
+      <title>Find that word!</title>
+      <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+      <link rel='stylesheet' href='/styles.css' type='text/css'>
+    </head>
+    <body>
+      <!--Banner at the top of the webpage  -->
+      <div class="bluebanner">
+        <!--Text inside the banner  -->
+        <p class="bannertext">Find The Word Or Die!</p>
+      </div>
+      <div class="container">
+        <%= yield %>
+      </div>
+    </body>
+  </html>

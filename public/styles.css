@@ -1,0 +1,41 @@
+/*Banner at the top of the screen, layout.erb*/
+.bluebanner{
+  width:100%;
+  height:50px;
+  background-color:#0099FF;
+  margin-bottom:20px;
+}
+
+/*Styles the text in the banner, layout.erb*/
+.bannertext{
+  color:white;
+  font-size:24px;
+  font-family:"Helvetica Neue Bold","Helvetica Bold","Arial Bold",sans-serif;
+  margin-left:auto;
+  margin-right:auto;
+  padding-left:15px;
+  padding-right:15px;
+  padding-top:8px;
+}
+
+/*Styles the text on the frequency.erb page*/
+.static_text{
+  font-size:16px;
+  font-family:"Helvetica Neue Bold","Helvetica Bold","Arial Bold",sans-serif;
+  margin-left:auto;
+  margin-right:auto;
+  padding-left:15px;
+  padding-right:15px;
+
+}
+
+/*Styles the output on the frequency.erb page*/
+.result_text{
+  font-size:20px;
+  font-family:"Helvetica Neue Bold","Helvetica Bold","Arial Bold",sans-serif;
+  margin-left:auto;
+  margin-right:auto;
+  padding-left:30px;
+  padding-right:15px;
+
+}

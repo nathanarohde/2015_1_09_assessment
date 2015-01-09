@@ -1,8 +1,9 @@
-<h3> You searched the sentence: </h3>
-<h2> <%= @sentence_to_search %> </h2>
+<!--Results page called by app.rb after information submitted on form.erb  -->
+<p class="static_text"> You searched the sentence: </p>
+<p class="result_text"> <%= @sentence_to_search %> </p>
 
-<h3> For the term: </h3>
-<h2> <%= @search_term %> </h2>
+<p class="static_text"> For the term: </p>
+<p class="result_text"> <%= @search_term %> </p>
 
-<h3> It was found: </h3>
-<h2> <%= @times_found %> times! </h2>
+<p class="static_text"> It was found: </p>
+<p class="result_text"> <%= @times_found %> times! </p>
