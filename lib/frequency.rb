@@ -9,12 +9,12 @@ class String
     end
     #Purges strings in array of all non alphanumeric characters allowing "it!" to equal "it"
     times_found=0
-    #Fixnum times_found ticks for every str search_term is found in arr sentence_to_search.
+    #Fixnum times_found ticks for every str search_term is found in arr sentence_without_punctuations.
     #On line 6 variable is set to 0 and established outside each loop.
     sentence_without_punctuations.each() do |sentence_word|
       times_found+=1 if (sentence_word == search_term)
     end
-    #each loop searches the array sentence_to_search for instances of the str search_term by comparing str sentence_word to str search_term.
+    #each loop searches the array sentence_without_punctuations for instances of the str search_term by comparing str sentence_word to str search_term.
     return times_found
   end
 end
