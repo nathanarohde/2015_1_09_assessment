@@ -18,3 +18,9 @@ describe("String#frequency") do
     expect(("string string string different words not_string").frequency("string")).to eq(3)
   end
 end
+
+describe("String#frequency") do
+  it("program purges non alphanumeric characters from strings contained in the array") do
+    expect(("string string string str@ing different words not_string string!").frequency("string")).to eq(5)
+  end
+end
